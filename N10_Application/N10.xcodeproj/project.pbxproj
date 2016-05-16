@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		520816E21CE808190054AF59 /* RegisterCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520816E11CE808190054AF59 /* RegisterCodeViewController.swift */; };
+		520816E41CE826D80054AF59 /* UserRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520816E31CE826D80054AF59 /* UserRegisterViewController.swift */; };
 		52C1439E1CE2B80D00AFDD9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C1439D1CE2B80D00AFDD9E /* AppDelegate.swift */; };
 		52C143A01CE2B80D00AFDD9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C1439F1CE2B80D00AFDD9E /* ViewController.swift */; };
 		52C143A31CE2B80D00AFDD9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52C143A11CE2B80D00AFDD9E /* Main.storyboard */; };
@@ -17,6 +19,9 @@
 		52CAF3711CE434060086D325 /* Registro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52CAF3701CE434060086D325 /* Registro.storyboard */; };
 		52CAF3741CE4409F0086D325 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CAF3731CE4409F0086D325 /* RegisterViewController.swift */; };
 		52CAF3761CE44AF10086D325 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CAF3751CE44AF10086D325 /* Util.swift */; };
+		52E3A4281CE9400900D48148 /* SelectSexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E3A4271CE9400900D48148 /* SelectSexViewController.swift */; };
+		52E3A42A1CE9521400D48148 /* SelectSistemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E3A4291CE9521400D48148 /* SelectSistemViewController.swift */; };
+		52E3A42C1CE952A900D48148 /* SelectHeightAndWeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E3A42B1CE952A900D48148 /* SelectHeightAndWeightViewController.swift */; };
 		C60F057F6C2FDDE37BEB1E58 /* Pods_N10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F582017732FECE98DF2FED7C /* Pods_N10.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		520816E11CE808190054AF59 /* RegisterCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterCodeViewController.swift; sourceTree = "<group>"; };
+		520816E31CE826D80054AF59 /* UserRegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRegisterViewController.swift; sourceTree = "<group>"; };
 		52C1439A1CE2B80D00AFDD9E /* N10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = N10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52C1439D1CE2B80D00AFDD9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52C1439F1CE2B80D00AFDD9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +61,9 @@
 		52CAF3701CE434060086D325 /* Registro.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Registro.storyboard; sourceTree = "<group>"; };
 		52CAF3731CE4409F0086D325 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		52CAF3751CE44AF10086D325 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		52E3A4271CE9400900D48148 /* SelectSexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSexViewController.swift; sourceTree = "<group>"; };
+		52E3A4291CE9521400D48148 /* SelectSistemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectSistemViewController.swift; sourceTree = "<group>"; };
+		52E3A42B1CE952A900D48148 /* SelectHeightAndWeightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectHeightAndWeightViewController.swift; sourceTree = "<group>"; };
 		B7F79803CB8A3690331BA8A2 /* Pods-N10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-N10.release.xcconfig"; path = "Pods/Target Support Files/Pods-N10/Pods-N10.release.xcconfig"; sourceTree = "<group>"; };
 		C86AD890919E9749962C8007 /* Pods-N10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-N10.debug.xcconfig"; path = "Pods/Target Support Files/Pods-N10/Pods-N10.debug.xcconfig"; sourceTree = "<group>"; };
 		F582017732FECE98DF2FED7C /* Pods_N10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_N10.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -186,6 +196,11 @@
 			isa = PBXGroup;
 			children = (
 				52CAF3731CE4409F0086D325 /* RegisterViewController.swift */,
+				520816E11CE808190054AF59 /* RegisterCodeViewController.swift */,
+				520816E31CE826D80054AF59 /* UserRegisterViewController.swift */,
+				52E3A4271CE9400900D48148 /* SelectSexViewController.swift */,
+				52E3A4291CE9521400D48148 /* SelectSistemViewController.swift */,
+				52E3A42B1CE952A900D48148 /* SelectHeightAndWeightViewController.swift */,
 			);
 			name = Registro;
 			sourceTree = "<group>";
@@ -374,9 +389,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520816E41CE826D80054AF59 /* UserRegisterViewController.swift in Sources */,
+				52E3A4281CE9400900D48148 /* SelectSexViewController.swift in Sources */,
 				52CAF3741CE4409F0086D325 /* RegisterViewController.swift in Sources */,
+				520816E21CE808190054AF59 /* RegisterCodeViewController.swift in Sources */,
+				52E3A42C1CE952A900D48148 /* SelectHeightAndWeightViewController.swift in Sources */,
 				52C143A01CE2B80D00AFDD9E /* ViewController.swift in Sources */,
 				52C1439E1CE2B80D00AFDD9E /* AppDelegate.swift in Sources */,
+				52E3A42A1CE9521400D48148 /* SelectSistemViewController.swift in Sources */,
 				52CAF3761CE44AF10086D325 /* Util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
